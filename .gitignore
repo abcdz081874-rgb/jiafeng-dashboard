@@ -1,0 +1,25 @@
+# Excel 原始資料（使用者上傳，不納入版控）
+原始資料/*.xlsx
+原始資料/*.xls
+原始資料/*.csv
+
+# Python 快取
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# 虛擬環境
+venv/
+.venv/
+env/
+
+# 環境變數（含 API Key，絕對不能上傳）
+.env
+.env.*
+
+# Mac 系統檔
+.DS_Store
+
+# Streamlit 本機快取
+.streamlit/secrets.toml
