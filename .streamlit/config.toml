@@ -7,4 +7,4 @@ font               = "sans serif"
 
 [server]
 port = 8501
-headless = false
+headless = true
